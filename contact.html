@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Klimax&#8482;</title>
+<link rel="shortcut icon" type="image/png" href="images/favicon.png">
+<link href="contact.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div class="hero">
+		<nav>
+			<a href="index.html"><img src="images/Klimax logo hart.png" class="logo"/></a>
+			<ul>
+				<li><a href="features.html">Features</a></li>
+				<li><a href="privacy.html">Privacy</a></li>
+				<li><a href="contact.html">Contact  Us</a></li>
+			</ul>
+			<div>
+				<a href="download.html" class="btn" target="_blank">Download App</a>
+			</div>
+		</nav>
+		<div class="content">
+			<script>
+				function changeImage(){
+					let displayImage = document.getElementById('cyclus')
+					if(displayImage.src.match('images/foto1.png')){
+						displayImage.src = 'images/foto2.png'
+					} else{
+						displayImage.src = 'images/foto1.png'
+					} 
+				}
+			</script>
+		</div>
+	</div>
+		<div class="middle">
+	</div>
+		<div class="contact anim5">
+	<form>
+	<input type="text" class="input-veld" placeholder="Name">
+	<input type="text" class="input-veld" placeholder="E-mail adres">
+	<input type="text" class="input-veld" placeholder="Subject">
+	<textarea type="text" class="input-veld textarea-veld" placeholder="Message...">
+	</textarea>
+	<button type="verzenden" class="verzenden">Send message</button>
+	</form>
+		</div>
+</body>
+</html>

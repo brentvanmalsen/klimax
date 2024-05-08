@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Klimax&#8482;</title>
+<link rel="shortcut icon" type="image/png" href="images/favicon.png">
+<link href="features.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<div class="hero">
+		<nav>
+			<a href="index.html"><img src="images/Klimax logo hart.png" class="logo"/></a>
+			<ul>
+				<li><a href="features.html">Features</a></li>
+				<li><a href="privacy.html">Privacy</a></li>
+				<li><a href="contact.html">Contact  Us</a></li>
+			</ul>
+			<div>
+				<a href="download.html" class="btn" target="_blank">Download App</a>
+			</div>
+		</nav>
+		<div class="content">
+			<h1 class="anim">Unique Features</h1>
+			<h3><p class="anim text1">Personality test</p></h3>
+			<p class="anim">Klimax contains a series of questions that anyone can fill on their profile. These questions are connected to an inteligent algoritm that makes sure you get the best out of your matches.</p>
+			<h3><p class="anim text1">See each other's preferences</p></h3>
+			<p class="anim">You have the ability to see what someone else is preferring. When you have a match with someone you can already get te know a few things about what the other person likes or not.  </p>
+			<h3><p class="anim text1">Secure identification system</p></h3>
+			<p class="anim">When you're signing up for the first time you will have to undergo a identification program in which your age and legal name will be checked en verified.</p>
+			<h3><p class="anim text1">High data security measures</p></h3>
+			<p class="anim">We put a lot of time and effort in making sure your data will always be safe.</p>
+			<img id="cyclus" class="fotocyclus anim4" src="images/foto1.png" height="300">
+			<script>
+				function changeImage(){
+					let displayImage = document.getElementById('cyclus')
+					if(displayImage.src.match('images/foto1.png')){
+						displayImage.src = 'images/foto2.png'
+					} else{
+						displayImage.src = 'images/foto1.png'
+					} 
+				}
+			</script>
+		</div>
+		<img src="images/dame.png" class="feature-img anim2">
+	</div>
+		<div class="middle">
+	<button id="cyclus" onClick="changeImage()" class="knop knop1 anim3">Next Image</button>
+	</div>
+</body>
+</html>
